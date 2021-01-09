@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    font-size: 36px;
+    padding-top: 35px;
+}
+
+h1:hover{
+    font-size: 42px;
+}
+
+a{
+    text-decoration: none;   
+}  
+
+a:hover{
+    color: rgb(153, 179, 228);
+}
+
+.container{
+    max-width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+#header{
+    height: 100px;
+    background-color: rgb(209, 213, 250);
+}
+
+#content{
+    height: 540px;
+    background-color: rgb(179, 183, 236);
+}
+
+.main-wrap{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.wrap{
+    display: flex;
+    margin: 15px 0;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
